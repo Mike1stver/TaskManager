@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "digital_watch";
+  src: url("/digital-7.70b39766.ttf");
+}
+
+.Hour {
+  display: flex;
+  justify-content: center;
+}
+
+.Container {
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  padding: 0 10px;
+  background-color: rgba(191, 201, 158, 0.795);
+}
+
+.Hour__number {
+  font-family: "digital_watch", sans-serif;
+  font-size: 95px;
+  color: blue;
+  margin-right: 20px;
+}
+
+.Hour__title {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-family: "Anton", sans-serif;
+}
+
+.Activities {
+  display: flex;
+  justify-content: center;
+}
+
+.Activity__input {
+  width: 500px;
+  height: 20px;
+  border: 1px solid green;
+  /* margin: 10px; */
+  margin-bottom: 10px;
+}
+
+.Activity__button {
+  width: 210px;
+  height: 35px;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.Container__noflex {
+  width: 500px;
+  padding: 0 10px;
+  background-color: rgba(191, 201, 158, 0.795);
+}
+
+.Container__button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Activity__title {
+  font-size: 25px;
+  font-family: "Anton", sans-serif;
+  margin: 5px 0;
+}
+
+.List {
+  display: flex;
+  justify-content: center;
+}
+
+/* .Container {
+  width: 500px;
+} */
+
+ol {
+  margin: 0;
+  padding: 5px 30px;
+  width: 410px;
+  margin: 0 15px 15px 15px;
+  border: 1px solid blue;
+}
+li {
+  margin: 8px 0;
+  font-size: 14px;
+  font-family: "Anton", sans-serif;
+  /* font-weight: 100; */
+}
+
+.header {
+  font-family: "Anton", sans-serif;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  color: white;
+  font-size: 30px;
+  /* width: 500px; */
+  height: 60px;
+}
+
+.Container__header {
+  display: flex;
+  background-color: blue;
+  justify-content: center;
+  align-items: center;
+  width: 520px;
+}
+
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */

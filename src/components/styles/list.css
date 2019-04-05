@@ -1,0 +1,22 @@
+.List {
+  display: flex;
+  justify-content: center;
+}
+
+/* .Container {
+  width: 500px;
+} */
+
+ol {
+  margin: 0;
+  padding: 5px 30px;
+  width: 410px;
+  margin: 0 15px 15px 15px;
+  border: 1px solid blue;
+}
+li {
+  margin: 8px 0;
+  font-size: 14px;
+  font-family: "Anton", sans-serif;
+  /* font-weight: 100; */
+}

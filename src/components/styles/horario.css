@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "digital_watch";
+  src: url("../../fonts/digital-7.ttf");
+}
+
+.Hour {
+  display: flex;
+  justify-content: center;
+}
+
+.Container {
+  display: inherit;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  padding: 0 10px;
+  background-color: rgba(191, 201, 158, 0.795);
+}
+
+.Hour__number {
+  font-family: "digital_watch", sans-serif;
+  font-size: 95px;
+  color: blue;
+  margin-right: 20px;
+}
+
+.Hour__title {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-family: "Anton", sans-serif;
+}
+
+.Activities {
+  display: flex;
+  justify-content: center;
+}
+
+.Activity__input {
+  width: 500px;
+  height: 20px;
+  border: 1px solid green;
+  /* margin: 10px; */
+  margin-bottom: 10px;
+}
+
+.Activity__button {
+  width: 210px;
+  height: 35px;
+  font-family: "Anton", sans-serif;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.Container__noflex {
+  width: 500px;
+  padding: 0 10px;
+  background-color: rgba(191, 201, 158, 0.795);
+}
+
+.Container__button {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Activity__title {
+  font-size: 25px;
+  font-family: "Anton", sans-serif;
+  margin: 5px 0;
+}
