@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html -d build/output --public-url ./",
-    "predeploy": "npm run build",
+    "build_github": "parcel build ./src/index.html -d build/output --public-url ./",
+    "predeploy": "npm run build_github",
     "deploy": "gh-pages -d build"
   },
   "keywords": [],
