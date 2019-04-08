@@ -1,17 +1,21 @@
 {
   "name": "proy1",
   "version": "1.0.0",
+  "homepage": "https://mike1stver.github.io/TaskManager/",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel ./src/index.html",
-    "build": "parcel build ./src/index.html -d build/output --public-url ./"
+    "build": "parcel build ./src/index.html -d build/output --public-url ./",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.8.5",
     "react-dom": "^16.8.5"
   },
