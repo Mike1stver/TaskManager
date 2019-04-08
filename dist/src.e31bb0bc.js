@@ -26259,7 +26259,7 @@ function (_Component) {
         className: "header"
       }, _react.default.createElement("div", {
         className: "Container__header"
-      }, "Registro de Actividades"));
+      }, "Registro de Actividades Miguel"));
     }
   }]);
 
@@ -26363,7 +26363,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50561" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50976" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
