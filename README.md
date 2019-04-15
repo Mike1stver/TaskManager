@@ -1,3 +1,3 @@
 # TaskManager
 
-Pagina que te permite realizar un seguimiento del inicio de las actividades que programes en tu trabajo diario
+Pagina que te permite realizar seguimiento al inicio de las actividades que programes en tu trabajo diario
