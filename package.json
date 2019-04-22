@@ -12,7 +12,7 @@
     "predeploy": "npm run build_github",
     "deploy": "gh-pages -d build"
   },
-  "keywords": ["parcel"],
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
